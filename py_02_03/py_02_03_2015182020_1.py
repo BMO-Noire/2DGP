@@ -1,0 +1,110 @@
+import turtle as t
+
+def move(x,y):
+    t.penup()
+    t.goto(x,y)
+    t.pendown()
+
+def ieung(x,y,r):
+    move(x,y)
+    t.circle(r)
+    move(x,y+20)
+    t.circle(r/2)
+
+def ah(x,y):
+    move(x,y)
+    t.right(90)
+    t.forward(100)
+    t.left(90)
+    t.forward(20)
+    t.left(90)
+    t.forward(40)
+    t.right(90)
+    t.forward(20)
+    t.left(90)
+    t.forward(20)
+    t.left(90)
+    t.forward(20)
+    t.right(90)
+    t.forward(40)
+    t.left(90)
+    t.forward(20)
+    t.setheading(0)
+
+def nieun(x,y):
+    move(x,y)
+    t.right(90)
+    t.forward(80)
+    t.left(90)
+    t.forward(80)
+    t.left(90)
+    t.forward(20)
+    t.left(90)
+    t.forward(60)
+    t.right(90)
+    t.forward(60)
+    t.left(90)
+    t.forward(20)
+    t.setheading(0)
+
+def jieut(x,y):
+    move(x,y)
+    t.forward(100)
+    t.right(90)
+    t.forward(20)
+    t.right(90)
+    t.forward(40)
+    t.left(135)
+    t.forward(50)
+    t.right(90)
+    t.forward(20)
+    t.right(90)
+    t.forward(50)
+    t.left(90)
+    t.forward(50)
+    t.right(90)
+    t.forward(20)
+    t.right(90)
+    t.forward(50)
+    t.left(135)
+    t.forward(40)
+    t.right(90)
+    t.forward(20)
+    t.right(90)
+    t.forward(10)
+    t.setheading(0)
+
+def i(x,y):
+    move(x,y)
+    t.forward(20)
+    t.right(90)
+    t.forward(100)
+    t.right(90)
+    t.forward(20)
+    t.right(90)
+    t.forward(100)
+    t.setheading(0)
+
+def ahn(x,y,r):
+    ieung(x,y,r)
+    ah(x+50,y+80)
+    nieun(x,y-30)
+
+def jeong(x,y,r):
+    jieut(x,y)
+    t.setheading(180)
+    ah(x+150,y-70)
+    ieung(x+100,y-150,r)
+
+def iin(x,y,r):
+    ieung(x,y,r)
+    i(x+60,y+70)
+    nieun(x,y-20)
+def name():
+    ahn(-250,0,40)
+    jeong(-100,50,40)
+    iin(150,0,40)
+
+t.speed(8)
+name()
+t.exitonclick()
