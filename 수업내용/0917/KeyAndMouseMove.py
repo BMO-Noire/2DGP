@@ -1,4 +1,5 @@
 from pico2d import *
+import helper.py
 
 def handle_events():
     global running,dx,x,y
@@ -27,8 +28,8 @@ def handle_events():
                 
 open_canvas()
 
-gra = load_image('grass.png')
-cha = load_image('animation_sheet.png')
+gra = load_image('../res/grass.png')
+cha = load_image('../res/animation_sheet.png')
 
 x, y = get_canvas_width() // 2, 85
 dx = 0
