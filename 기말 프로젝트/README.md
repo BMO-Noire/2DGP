@@ -98,9 +98,12 @@
  
  **1. 게임 화면 구성(맵)**
  ![111](https://user-images.githubusercontent.com/66163299/95560300-0c9bcd80-0a54-11eb-84eb-85bb9ee2f867.PNG)
+ 
  **2. 게임 화면 구성(툴)**
  ![222](https://user-images.githubusercontent.com/66163299/95560435-3e149900-0a54-11eb-8bd3-bb2a9a7bbc4e.PNG)
+ 
  **3. 게임 흐름**
  ![333](https://user-images.githubusercontent.com/66163299/95560444-3fde5c80-0a54-11eb-96f6-6cf9b6bd1545.PNG)
+ 
  ## 8. 개발 일정
  ![444](https://user-images.githubusercontent.com/66163299/95560445-3fde5c80-0a54-11eb-9cce-99b3b809055b.PNG)
