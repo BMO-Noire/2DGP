@@ -106,4 +106,5 @@
  ![333](https://user-images.githubusercontent.com/66163299/95560444-3fde5c80-0a54-11eb-96f6-6cf9b6bd1545.PNG)
  
  ## 8. 개발 일정
- ![444](https://user-images.githubusercontent.com/66163299/95560445-3fde5c80-0a54-11eb-9cce-99b3b809055b.PNG)
+ ![22222](https://user-images.githubusercontent.com/66163299/96332678-5ca41100-10a0-11eb-82a0-f5e6d72626f7.PNG)
+
